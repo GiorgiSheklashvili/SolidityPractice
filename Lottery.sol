@@ -14,11 +14,6 @@ contract Lottery{
         return uint256(keccak256(abi.encodePacked(block.difficulty, block.timestamp, players.length))); // not perfect random number, miner can exploit this function
     }
     
-    fallback() external payable {
-        require(msg.value > 0.01 ether);
-        players.push(payable(msg.sender));
-    }
-    
     event Received(address sender, uint value);   // declaring event
 
     receive() external payable {
