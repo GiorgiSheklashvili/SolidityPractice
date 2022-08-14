@@ -1,3 +1,4 @@
+const assert = require('assert');
 const { expect } = require("chai");
 const { ethers, waffle } = require("hardhat");
 
