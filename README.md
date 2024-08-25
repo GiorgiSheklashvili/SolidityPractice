@@ -3,7 +3,8 @@
 
 The project contains design patterns and anti-patterns of smart contract development on Solidity.
 
-
+Some are solutions from Ethereum CTF - 
+https://ethernaut.openzeppelin.com/
 ## Demo
 
 Lottery contract on Rinkeby testnet - https://rinkeby.etherscan.io/address/0x520181fd490f4015457e8e343c8bd3c793445de4
